@@ -1,0 +1,1 @@
+require board=Pacman|PacmanPro|k6886v1_64
