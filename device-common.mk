@@ -334,6 +334,7 @@ GPU_OPP_INDEX_PATH := /proc/gpufreqv2/fix_target_opp_index
 GPU_OPP_TABLE_PATH := /proc/gpufreqv2/gpu_working_opp_table
 
 TARGET_DISABLES_LIBPERF := true
+TARGET_INCLUDE_AXFX := true
 PERF_ANIM_OVERRIDE := true
 
 # Security
