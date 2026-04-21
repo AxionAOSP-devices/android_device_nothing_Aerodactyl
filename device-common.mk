@@ -329,9 +329,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# GPU
-GPU_OPP_INDEX_PATH := /proc/gpufreqv2/fix_target_opp_index
-GPU_OPP_TABLE_PATH := /proc/gpufreqv2/gpu_working_opp_table
+PRODUCT_COPY_FILES += \
+    device/nothing/Aerodactyl/configs/axion/ax_perf_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ax_perf_config.xml
 
 TARGET_DISABLES_LIBPERF := true
 TARGET_INCLUDE_AXFX := true
