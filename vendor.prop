@@ -66,8 +66,7 @@ debug.graphics.game_default_frame_rate.disabled=true
 debug.mediatek.disp_decompress=1
 debug.renderengine.backend=skiavk
 debug.hwui.renderer=skiavk
-debug.sf.auto_latch_unsignaled=1
-debug.sf.enable_gl_backpressure=1
+debug.sf.enable_gl_backpressure=0
 debug.sf.enable_hwc_vds=0
 debug.sf.enable_transaction_tracing=false
 debug.sf.use_phase_offsets_as_durations=1
@@ -79,9 +78,6 @@ debug.sf.earlyGl.sf.duration=15600000
 debug.sf.earlyGl.app.duration=16600000
 debug.sf.hwc.min.duration=2000000
 debug.sf.predict_hwc_composition_strategy=0
-debug.sf.region_sampling_duration_ns=8333333
-debug.sf.region_sampling_period_ns=99999984
-debug.sf.region_sampling_timer_timeout_ns=99999984
 debug.sf.treat_170m_as_sRGB=1
 persist.sys.sf.native_mode=260
 persist.sys.sf.duration.switch=1
@@ -178,10 +174,6 @@ ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.recordable=false
 
 # Incremental FS
 ro.incremental.enable=yes
-
-# HWUI
-debug.hwui.target_cpu_time_percent=30
-debug.hwui.use_hint_manager=true
 
 # Keystore
 ro.hardware.kmsetkey=trustonic
